@@ -1,0 +1,51 @@
+
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    background: rgb(136, 136, 240);
+}
+
+
+nav {
+    background-color: rgb(52, 52, 214);
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    font-weight: 600;
+}
+
+nav > h3 {
+    margin: 0;
+}
+
+#post {
+    padding: 10px;
+
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: grid;
+    background-color: rgb(101, 101, 197);
+
+}
+input#post-title, textarea#post-body {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
